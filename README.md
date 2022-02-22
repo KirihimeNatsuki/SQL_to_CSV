@@ -2,7 +2,7 @@
 
 ⚠️⚠️ **You should install first the components !!!** Heres is how to do it :
 
-# Components installation
+# Install
 
 ## How to install components
 
