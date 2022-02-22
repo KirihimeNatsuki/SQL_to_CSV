@@ -1,6 +1,6 @@
 # Python Script .SQL to .CSV
 
-⚠️⚠️ **You should install first he components !!!** Heres is how to do it :
+⚠️⚠️ **You should install first the components !!!** Heres is how to do it :
 
 # Components installation
 
@@ -23,8 +23,6 @@ The batch file install the following components :
     - Numpy
     - The executable of the script "SQL_to_CSV.py"
 
-
-If you have any problems or errors return, you can always contact me or modify the script ^^
 
 # Usage
 
@@ -74,7 +72,9 @@ INSERT INTO  `sales` (`item`,`price`,`quantity`) VALUES (`apple`, 0.50, 10), (`b
 
 CAREFUL : There is 2 spaces between the 'INSERT INTO' and the tablename which are specific to my sql work file. To modify it and be able to have only 1 space you need to go to line 26 and reduce the space between them. You should rebuild it by using the following commande : `python setup.py build`
 
-This script is made in Python 3 and works numpy and cx_Freeze(for executable), make sure to install numpy and cx_Freeze with the following commands : `pip install numpy` | `python -m pip install --upgrade cx_Freeze`
+This script is made in Python 3 and works numpy and cx_Freeze(for executable), make sure to install numpy and cx_Freeze with the following commands (if not already installed by you or the batch file above) : `pip install numpy` | `python -m pip install --upgrade cx_Freeze`
 You might need more libraries install to make it work (NOT most of the time !), if anything check your errors and install the plugins needed.
+
+If you have any problems or errors return, you can always contact me or modify the script ^^
 
 ###### Made by KirihimeNatsuki by ❤️.
