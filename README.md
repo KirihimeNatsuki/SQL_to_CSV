@@ -1,22 +1,49 @@
 # Python Script .SQL to .CSV
 
-## Usage
+⚠️⚠️ **You should install first he components !!!** Heres is how to do it :
+
+# Components installation
+
+## How to install components
+
+### Very simple !!!
+
+Just run as administrator the batch file `install.bat` by right clicking it and select `Run as administrator`
+
+You will need to press "Enter" one time when the script is asking for it.
+
+And you should be ready to go once the installation is completed !!
+
+### Which components are installed ? 
+
+The batch file install the following components :
+
+    - Python 3.10
+    - cx_Freeze
+    - Numpy
+    - The executable of the script "SQL_to_CSV.py"
+
+
+If you have any problems or errors return, you can always contact me or modify the script ^^
+
+# Usage
 
 ### For non-developper users
 
-Run the executable file : `script_SQL_to_CSV.exe ` and enter the name or the path of the sql file when the program is asking you to enter it.
+Run the executable file : `SQL_to_CSV.exe ` and enter the name or the path of the sql file when the program is asking you to enter it.
 And done ! You have your .SQL file converted to .CSV file
 
 Example : You launch the .exe file and the script is asking you to enter the sql file name : 2 possibilities
     - mysqlfile.sql
     - C:\Users\user\documents\Script\filename.sql
 
-
 ### For developper users
 
-Just run `python script_SQL_to_CSV.py` and enter the name or the path of the sql file when the script is asking you to enter it.
+2 choices : 
 
-Example : - `python script_SQL_to_CSV.py` and enter filename like the examples above.
+Choose to run the executable or run `python SQL_to_CSV.py` and enter the name or the path of the sql file when the script is asking you to enter it.
+
+Example : - `python SQL_to_CSV.py` and enter filename like the examples above.
 
 ## How It Works
 The following SQL:
@@ -50,4 +77,4 @@ CAREFUL : There is 2 spaces between the 'INSERT INTO' and the tablename which ar
 This script is made in Python 3 and works numpy and cx_Freeze(for executable), make sure to install numpy and cx_Freeze with the following commands : `pip install numpy` | `python -m pip install --upgrade cx_Freeze`
 You might need more libraries install to make it work (NOT most of the time !), if anything check your errors and install the plugins needed.
 
-###### Made by Enzo Lemarchand.
+###### Made by KirihimeNatsuki by ❤️.
